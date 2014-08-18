@@ -15,3 +15,12 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+$(function() {
+  
+  $(".choose").on("click", function(event) {
+    
+    $("nav").toggleClass("move");
+    
+  });
+  
+});
